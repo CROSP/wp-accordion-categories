@@ -65,11 +65,11 @@ class Accordion_Categories_Widget extends WP_Widget {
 	 * Enqueue plugin style-file
 	 */
 	public function init_widget($instance) {
-	    wp_register_style( 'accordion-category-style', plugins_url('accordion-category-style.css', __FILE__) );
+	    wp_register_style( 'accordion-category-style', plugins_url('css/accordion-category-style.css', __FILE__) );
 	    wp_enqueue_style( 'accordion-category-style' );
 	    // Register the script like this for a plugin:
 	    wp_enqueue_script('jquery');
-    	wp_register_script( 'accordion-category-script', plugins_url( 'accordion-categories.js', __FILE__ ) );
+    	wp_register_script( 'accordion-category-script', plugins_url( 'js/accordion-categories.js', __FILE__ ) );
     	wp_enqueue_script( 'accordion-category-script' );
     	$this->parse_instance($instance);
 	}

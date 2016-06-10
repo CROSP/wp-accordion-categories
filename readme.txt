@@ -23,6 +23,10 @@ Major features in Accordion Categories include:
 * Category icon
 * Extra field on category configuration page for specifying font-awesome icon
 
+= Contribution =
+
+You can fidn source code on github [Accordion Categories](https://wordpress.org/plugins/flamingo/)
+
 == Installation ==
 
 1. Upload the entire `accordion-categories` folder to the `/wp-content/plugins/` directory.

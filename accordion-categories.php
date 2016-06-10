@@ -13,9 +13,9 @@ if ( !defined('ABSPATH')) {
 	die('-1');
 }
 require_once("class-accordion-categories-widget.php");
-require_once("category_add_form_fields.php");
-require_once("category_edit_form_fields.php");
-require_once("save_field_value.php");
+require_once("inc/category_add_form_fields.php");
+require_once("inc/category_edit_form_fields.php");
+require_once("inc/save_field_value.php");
 // Registering widget with hook method	
 add_action( 'widgets_init', function(){
      register_widget( 'Accordion_Categories_Widget' );
